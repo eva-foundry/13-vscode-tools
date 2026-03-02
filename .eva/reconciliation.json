@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "schema": "eva.reconciliation.v2",
+    "generated_at": "2026-02-25T06:37:07.279Z",
+    "repo": "C:\\AICOE\\eva-foundation\\13-vscode-tools",
+    "discovery_path": "C:\\AICOE\\eva-foundation\\13-vscode-tools\\.eva\\discovery.json"
+  },
+  "coverage": {
+    "stories_total": 40,
+    "stories_with_artifacts": 40,
+    "stories_with_evidence": 0,
+    "consistency_score": 0
+  },
+  "features": [
+    {
+      "id": "F13-01",
+      "title": "Why This Project Exists",
+      "story_count": 0,
+      "stories_with_artifacts": 0,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 0,
+      "gap_count": 0
+    },
+    {
+      "id": "F13-02",
+      "title": "Goal",
+      "story_count": 1,
+      "stories_with_artifacts": 1,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 50,
+      "gap_count": 0
+    },
+    {
+      "id": "F13-03",
+      "title": "Acceptance Criteria",
+      "story_count": 0,
+      "stories_with_artifacts": 0,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 0,
+      "gap_count": 0
+    },
+    {
+      "id": "F13-04",
+      "title": "Complete Tool Inventory (156 Tools)",
+      "story_count": 13,
+      "stories_with_artifacts": 13,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 50,
+      "gap_count": 0
+    },
+    {
+      "id": "F13-05",
+      "title": "Tools Mapped to Your Projects",
+      "story_count": 5,
+      "stories_with_artifacts": 5,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 50,
+      "gap_count": 0
+    },
+    {
+      "id": "F13-06",
+      "title": "Priority Tiers: What to Master First",
+      "story_count": 4,
+      "stories_with_artifacts": 4,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 50,
+      "gap_count": 0
+    },
+    {
+      "id": "F13-07",
+      "title": "Elimination List: Tools to Disable",
+      "story_count": 1,
+      "stories_with_artifacts": 1,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 50,
+      "gap_count": 0
+    },
+    {
+      "id": "F13-08",
+      "title": "High-Impact Tool Usage Patterns",
+      "story_count": 5,
+      "stories_with_artifacts": 5,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 50,
+      "gap_count": 0
+    },
+    {
+      "id": "F13-09",
+      "title": "Performance Baseline & Metrics",
+      "story_count": 3,
+      "stories_with_artifacts": 3,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 50,
+      "gap_count": 0
+    },
+    {
+      "id": "F13-10",
+      "title": "Next Steps",
+      "story_count": 4,
+      "stories_with_artifacts": 4,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 50,
+      "gap_count": 0
+    },
+    {
+      "id": "F13-11",
+      "title": "The Beach Answer (Revisited)",
+      "story_count": 0,
+      "stories_with_artifacts": 0,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 0,
+      "gap_count": 0
+    },
+    {
+      "id": "F13-12",
+      "title": "Appendix: Tool Selection Philosophy",
+      "story_count": 4,
+      "stories_with_artifacts": 4,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 50,
+      "gap_count": 0
+    },
+    {
+      "id": "F13-13",
+      "title": "Document Metadata",
+      "story_count": 0,
+      "stories_with_artifacts": 0,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 0,
+      "gap_count": 0
+    }
+  ],
+  "gaps": []
+}
