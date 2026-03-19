@@ -1,6 +1,27 @@
 # Project 13: VS Code Tools - Strategic Selection & Mastery
 
-**Project Status**: 🎯 Discovery & Analysis  
+<!-- eva-primed -->
+<!-- foundation-primer: 2026-03-03 by agent:copilot -->
+
+## EVA Ecosystem Integration
+
+| Tool | Purpose | How to Use |
+|------|---------|------------|
+| 37-data-model | Single source of truth for all project entities | GET http://localhost:8010/model/projects/13-vscode-tools |
+| 29-foundry | Agentic capabilities (search, RAG, eval, observability) | C:\eva-foundry\eva-foundation\29-foundry |
+| 48-eva-veritas | Trust score and coverage audit | MCP tool: audit_repo / get_trust_score |
+| 07-foundation-layer | Copilot instructions primer + governance templates | MCP tool: apply_primer / audit_project |
+
+**Agent rule**: Query the data model API before reading source files.
+```powershell
+Invoke-RestMethod "http://localhost:8010/model/agent-guide"   # complete protocol
+Invoke-RestMethod "http://localhost:8010/model/agent-summary" # all layer counts
+```
+
+---
+
+
+**Project Status**: ?? Discovery & Analysis  
 **Start Date**: January 25, 2026  
 **Owner**: Marco Presta
 
@@ -17,7 +38,7 @@
 4. **Copilot Instructions** (Project 07) - Standardizing AI-assisted development
 5. **MS-InfoJP** (Project 11) - Jurisprudence AI assistant for Employment Insurance case law
 
-These projects demand excellence, efficiency, and the right tools. This project ensures you're using VS Code's 156 available tools strategically—not reactively.
+These projects demand excellence, efficiency, and the right tools. This project ensures you're using VS Code's 156 available tools strategically?not reactively.
 
 ---
 
@@ -27,10 +48,10 @@ These projects demand excellence, efficiency, and the right tools. This project 
 
 ### Key Questions This Project Answers
 
-1. **Do I need all 156 tools?** → No. Strategic subset analysis required.
-2. **Which tools make a difference for MY work?** → Mapped to actual projects below.
-3. **How do I use the high-impact tools effectively?** → Usage patterns documented.
-4. **What defines 'difference' in my context?** → Acceleration of AI governance, agent development, and documentation workflows.
+1. **Do I need all 156 tools?** ? No. Strategic subset analysis required.
+2. **Which tools make a difference for MY work?** ? Mapped to actual projects below.
+3. **How do I use the high-impact tools effectively?** ? Usage patterns documented.
+4. **What defines 'difference' in my context?** ? Acceleration of AI governance, agent development, and documentation workflows.
 
 ---
 
@@ -38,13 +59,13 @@ These projects demand excellence, efficiency, and the right tools. This project 
 
 This project succeeds when:
 
-1. ✅ **Complete tool inventory documented** - All 156 tools listed with one-line descriptions
-2. ✅ **Tools mapped to actual projects** - Each tool categorized by relevance to EVA projects
-3. ✅ **Priority tiers established** - HIGH/MEDIUM/LOW impact classification
-4. ✅ **Usage patterns documented** - How-to guides for high-impact tools
-5. ✅ **Elimination list created** - Tools to disable for reduced cognitive load
-6. ✅ **Workflow integration examples** - Tools combined into effective patterns
-7. ✅ **Performance baseline captured** - Before/after metrics on development velocity
+1. ? **Complete tool inventory documented** - All 156 tools listed with one-line descriptions
+2. ? **Tools mapped to actual projects** - Each tool categorized by relevance to EVA projects
+3. ? **Priority tiers established** - HIGH/MEDIUM/LOW impact classification
+4. ? **Usage patterns documented** - How-to guides for high-impact tools
+5. ? **Elimination list created** - Tools to disable for reduced cognitive load
+6. ? **Workflow integration examples** - Tools combined into effective patterns
+7. ? **Performance baseline captured** - Before/after metrics on development velocity
 
 ---
 
@@ -54,157 +75,157 @@ This project succeeds when:
 
 | Tool | Function | Your Priority |
 |------|----------|---------------|
-| **read** | Read files in workspace | 🔴 **CRITICAL** - Foundation for all analysis |
-| **search** | Search files in workspace | 🔴 **CRITICAL** - Code discovery and pattern analysis |
-| **todo** | Manage/track todo items for planning | 🔴 **CRITICAL** - Multi-step task tracking (agent orchestration) |
-| **vscode** | Use VS Code features | 🟡 **MEDIUM** - UI automation when needed |
-| **web** | Fetch information from web | 🟢 **LOW** - Rare use case |
-| **Azure MCP** | Azure resource management via MCP | 🟠 **HIGH** - MS-InfoJP deployment and Azure AI Foundry |
-| **DevBox** | DevBox resource management | 🟢 **LOW** - Not using DevBox currently |
+| **read** | Read files in workspace | ?? **CRITICAL** - Foundation for all analysis |
+| **search** | Search files in workspace | ?? **CRITICAL** - Code discovery and pattern analysis |
+| **todo** | Manage/track todo items for planning | ?? **CRITICAL** - Multi-step task tracking (agent orchestration) |
+| **vscode** | Use VS Code features | ?? **MEDIUM** - UI automation when needed |
+| **web** | Fetch information from web | ?? **LOW** - Rare use case |
+| **Azure MCP** | Azure resource management via MCP | ?? **HIGH** - MS-InfoJP deployment and Azure AI Foundry |
+| **DevBox** | DevBox resource management | ?? **LOW** - Not using DevBox currently |
 
 ### File Operations (8 tools)
 
 | Tool | Function | Your Priority |
 |------|----------|---------------|
-| **apply_patch** | Apply structured diff/patch | 🟠 **HIGH** - Precise code modifications |
-| **create_directory** | Create directories | 🟡 **MEDIUM** - Project scaffolding |
-| **create_file** | Create new files | 🟠 **HIGH** - Documentation and code generation |
-| **file_search** | Find files by glob pattern | 🟠 **HIGH** - Navigation in large codebases |
-| **list_dir** | List directory contents | 🟠 **HIGH** - Structure exploration |
-| **read_file** | Read file contents by line range | 🔴 **CRITICAL** - Core analysis capability |
-| **grep_search** | Fast text/regex search | 🔴 **CRITICAL** - Pattern discovery across workspace |
-| **semantic_search** | Natural language code search | 🟠 **HIGH** - Intent-based code discovery |
+| **apply_patch** | Apply structured diff/patch | ?? **HIGH** - Precise code modifications |
+| **create_directory** | Create directories | ?? **MEDIUM** - Project scaffolding |
+| **create_file** | Create new files | ?? **HIGH** - Documentation and code generation |
+| **file_search** | Find files by glob pattern | ?? **HIGH** - Navigation in large codebases |
+| **list_dir** | List directory contents | ?? **HIGH** - Structure exploration |
+| **read_file** | Read file contents by line range | ?? **CRITICAL** - Core analysis capability |
+| **grep_search** | Fast text/regex search | ?? **CRITICAL** - Pattern discovery across workspace |
+| **semantic_search** | Natural language code search | ?? **HIGH** - Intent-based code discovery |
 
 ### Development & Execution (10 tools)
 
 | Tool | Function | Your Priority |
 |------|----------|---------------|
-| **run_in_terminal** | Execute shell/PowerShell commands | 🔴 **CRITICAL** - Script execution and automation |
-| **run_task** | Run VS Code task from tasks.json | 🟠 **HIGH** - Standardized build/deploy workflows |
-| **get_task_output** | Retrieve task output | 🟡 **MEDIUM** - Debugging task failures |
-| **get_terminal_output** | Get terminal output from run_in_terminal | 🟠 **HIGH** - Capture automation results |
-| **terminal_last_command** | Last command executed in terminal | 🟡 **MEDIUM** - Command history inspection |
-| **terminal_selection** | Current terminal selection text | 🟢 **LOW** - Rare use case |
-| **run_vscode_command** | Run VS Code command by ID | 🟡 **MEDIUM** - Advanced UI automation |
-| **get_errors** | Get compile/lint errors | 🟠 **HIGH** - Quality validation (Agent Skills validation) |
-| **install_extension** | Install VS Code extension | 🟢 **LOW** - One-time setup |
-| **open_simple_browser** | Preview URL in VS Code | 🟢 **LOW** - Occasional web preview |
+| **run_in_terminal** | Execute shell/PowerShell commands | ?? **CRITICAL** - Script execution and automation |
+| **run_task** | Run VS Code task from tasks.json | ?? **HIGH** - Standardized build/deploy workflows |
+| **get_task_output** | Retrieve task output | ?? **MEDIUM** - Debugging task failures |
+| **get_terminal_output** | Get terminal output from run_in_terminal | ?? **HIGH** - Capture automation results |
+| **terminal_last_command** | Last command executed in terminal | ?? **MEDIUM** - Command history inspection |
+| **terminal_selection** | Current terminal selection text | ?? **LOW** - Rare use case |
+| **run_vscode_command** | Run VS Code command by ID | ?? **MEDIUM** - Advanced UI automation |
+| **get_errors** | Get compile/lint errors | ?? **HIGH** - Quality validation (Agent Skills validation) |
+| **install_extension** | Install VS Code extension | ?? **LOW** - One-time setup |
+| **open_simple_browser** | Preview URL in VS Code | ?? **LOW** - Occasional web preview |
 
 ### Code Intelligence (5 tools)
 
 | Tool | Function | Your Priority |
 |------|----------|---------------|
-| **list_code_usages** | Find usages/references/implementations | 🔴 **CRITICAL** - Refactoring and impact analysis |
-| **search_workspace_symbols** | Search for symbols (classes, functions) | 🟠 **HIGH** - Navigate to definitions |
-| **get_changed_files** | Git diffs of current changes | 🟠 **HIGH** - Code review and commit preparation |
-| **copilot_getNotebookSummary** | Notebook cell summary (ids, types, ranges) | 🟢 **LOW** - Not using notebooks extensively |
-| **fetch_webpage** | Fetch and return web page content | 🟢 **LOW** - Rare use case |
+| **list_code_usages** | Find usages/references/implementations | ?? **CRITICAL** - Refactoring and impact analysis |
+| **search_workspace_symbols** | Search for symbols (classes, functions) | ?? **HIGH** - Navigate to definitions |
+| **get_changed_files** | Git diffs of current changes | ?? **HIGH** - Code review and commit preparation |
+| **copilot_getNotebookSummary** | Notebook cell summary (ids, types, ranges) | ?? **LOW** - Not using notebooks extensively |
+| **fetch_webpage** | Fetch and return web page content | ?? **LOW** - Rare use case |
 
 ### Project Generation (2 tools)
 
 | Tool | Function | Your Priority |
 |------|----------|---------------|
-| **create_new_workspace** | Scaffold complete project/workspace | 🟠 **HIGH** - New project initialization (Agent Skills) |
-| **create_new_jupyter_notebook** | Generate Jupyter notebook from query | 🟢 **LOW** - Not primary workflow |
+| **create_new_workspace** | Scaffold complete project/workspace | ?? **HIGH** - New project initialization (Agent Skills) |
+| **create_new_jupyter_notebook** | Generate Jupyter notebook from query | ?? **LOW** - Not primary workflow |
 
 ### Notebook Operations (2 tools)
 
 | Tool | Function | Your Priority |
 |------|----------|---------------|
-| **run_notebook_cell** | Execute notebook cell, return outputs | 🟢 **LOW** - Rare notebook use |
-| **copilot_getNotebookSummary** | Notebook summary (duplicate) | 🟢 **LOW** - Not using notebooks |
+| **run_notebook_cell** | Execute notebook cell, return outputs | ?? **LOW** - Rare notebook use |
+| **copilot_getNotebookSummary** | Notebook summary (duplicate) | ?? **LOW** - Not using notebooks |
 
 ### AI Agent Development (5 tools)
 
 | Tool | Function | Your Priority |
 |------|----------|---------------|
-| **runSubagent** | Launch autonomous sub-agent for multi-step tasks | 🔴 **CRITICAL** - Agent Skills orchestration |
-| **activate_ai_agent_development_best_practices** | Best-practice guidance for agents | 🟠 **HIGH** - Agent Skills project quality |
-| **aitk-convert_declarative_agent_to_code** | Convert agent specs to runnable code | 🟠 **HIGH** - Agent Skills implementation |
-| **aitk-evaluation_planner** | Multi-turn planner for evaluation metrics | 🟡 **MEDIUM** - Agent testing framework |
-| **manage_todo_list** | Create/read/update todo list | 🔴 **CRITICAL** - Multi-step task planning |
+| **runSubagent** | Launch autonomous sub-agent for multi-step tasks | ?? **CRITICAL** - Agent Skills orchestration |
+| **activate_ai_agent_development_best_practices** | Best-practice guidance for agents | ?? **HIGH** - Agent Skills project quality |
+| **aitk-convert_declarative_agent_to_code** | Convert agent specs to runnable code | ?? **HIGH** - Agent Skills implementation |
+| **aitk-evaluation_planner** | Multi-turn planner for evaluation metrics | ?? **MEDIUM** - Agent testing framework |
+| **manage_todo_list** | Create/read/update todo list | ?? **CRITICAL** - Multi-step task planning |
 
 ### Python Development (2 tools)
 
 | Tool | Function | Your Priority |
 |------|----------|---------------|
-| **activate_python_environment_tools** | Python environment inspection | 🟠 **HIGH** - Dependency troubleshooting |
-| **configure_python_environment** | Configure venv/conda for workspace | 🟠 **HIGH** - Project setup automation |
+| **activate_python_environment_tools** | Python environment inspection | ?? **HIGH** - Dependency troubleshooting |
+| **configure_python_environment** | Configure venv/conda for workspace | ?? **HIGH** - Project setup automation |
 
 ### Java Development (6 tools)
 
 | Tool | Function | Your Priority |
 |------|----------|---------------|
-| **activate_java_debugging_control_tools** | Java debug step controls | 🟢 **LOW** - Not using Java |
-| **activate_java_debug_session_management_tools** | Java debug session management | 🟢 **LOW** - Not using Java |
-| **debug_java_application** | Launch/attach Java debugger | 🟢 **LOW** - Not using Java |
-| **evaluate_debug_expression** | Evaluate expression in Java debug | 🟢 **LOW** - Not using Java |
-| **get_debug_stack_trace** | Java call stack frames | 🟢 **LOW** - Not using Java |
-| **get_debug_threads** | List threads in Java debug session | 🟢 **LOW** - Not using Java |
+| **activate_java_debugging_control_tools** | Java debug step controls | ?? **LOW** - Not using Java |
+| **activate_java_debug_session_management_tools** | Java debug session management | ?? **LOW** - Not using Java |
+| **debug_java_application** | Launch/attach Java debugger | ?? **LOW** - Not using Java |
+| **evaluate_debug_expression** | Evaluate expression in Java debug | ?? **LOW** - Not using Java |
+| **get_debug_stack_trace** | Java call stack frames | ?? **LOW** - Not using Java |
+| **get_debug_threads** | List threads in Java debug session | ?? **LOW** - Not using Java |
 
 ### Azure Services (25+ MCP tools)
 
 | Tool | Function | Your Priority |
 |------|----------|---------------|
-| **activate_azure_authentication_and_resource_management_tools** | Azure auth/resource toolset | 🔴 **CRITICAL** - MS-InfoJP deployment |
-| **activate_azure_resource_management_tools** | Azure resource diagnostics | 🟠 **HIGH** - Production troubleshooting |
-| **activate_azure_cli_management_tools** | Generate Azure CLI commands | 🟠 **HIGH** - Infrastructure automation |
-| **activate_azure_subscription_and_resource_group_tools** | List subscriptions/resource groups | 🟠 **HIGH** - Multi-tenant navigation |
-| **azure_bicep-get_azure_verified_module** | Find Azure Verified Bicep modules | 🟡 **MEDIUM** - IaC best practices |
-| **azureResources_getAzureActivityLog** | Fetch Azure activity log | 🟡 **MEDIUM** - Audit and troubleshooting |
-| **mcp_azure_mcp_azureterraformbestpractices** | Azure Terraform best practices | 🟠 **HIGH** - MS-InfoJP infrastructure |
-| **mcp_azure_mcp_confidentialledger** | Confidential Ledger operations | 🟢 **LOW** - Not using ledger |
-| **mcp_azure_mcp_documentation** | Search Microsoft/Azure docs | 🟠 **HIGH** - Reference lookup during development |
-| **mcp_azure_mcp_extension_azqr** | Azure Quick Review (compliance reports) | 🟡 **MEDIUM** - Governance validation |
-| **mcp_azure_mcp_managedlustre** | Azure Managed Lustre operations | 🟢 **LOW** - Not using Lustre |
-| **mcp_azure_mcp_cosmos** | Cosmos DB operations | 🟠 **HIGH** - MS-InfoJP session storage |
-| **mcp_azure_mcp_bicepschema** | Bicep schema helper | 🟡 **MEDIUM** - IaC validation |
-| **mcp_azure_mcp_datadog** | Datadog integration | 🟢 **LOW** - Not using Datadog |
-| **mcp_azure_mcp_grafana** | Azure Managed Grafana | 🟢 **LOW** - Not using Grafana |
-| **mcp_azure_mcp_group_list** | List resource groups | 🟠 **HIGH** - Navigation |
-| **mcp_azure_mcp_subscription_list** | List subscriptions | 🟠 **HIGH** - Account management |
+| **activate_azure_authentication_and_resource_management_tools** | Azure auth/resource toolset | ?? **CRITICAL** - MS-InfoJP deployment |
+| **activate_azure_resource_management_tools** | Azure resource diagnostics | ?? **HIGH** - Production troubleshooting |
+| **activate_azure_cli_management_tools** | Generate Azure CLI commands | ?? **HIGH** - Infrastructure automation |
+| **activate_azure_subscription_and_resource_group_tools** | List subscriptions/resource groups | ?? **HIGH** - Multi-tenant navigation |
+| **azure_bicep-get_azure_verified_module** | Find Azure Verified Bicep modules | ?? **MEDIUM** - IaC best practices |
+| **azureResources_getAzureActivityLog** | Fetch Azure activity log | ?? **MEDIUM** - Audit and troubleshooting |
+| **mcp_azure_mcp_azureterraformbestpractices** | Azure Terraform best practices | ?? **HIGH** - MS-InfoJP infrastructure |
+| **mcp_azure_mcp_confidentialledger** | Confidential Ledger operations | ?? **LOW** - Not using ledger |
+| **mcp_azure_mcp_documentation** | Search Microsoft/Azure docs | ?? **HIGH** - Reference lookup during development |
+| **mcp_azure_mcp_extension_azqr** | Azure Quick Review (compliance reports) | ?? **MEDIUM** - Governance validation |
+| **mcp_azure_mcp_managedlustre** | Azure Managed Lustre operations | ?? **LOW** - Not using Lustre |
+| **mcp_azure_mcp_cosmos** | Cosmos DB operations | ?? **HIGH** - MS-InfoJP session storage |
+| **mcp_azure_mcp_bicepschema** | Bicep schema helper | ?? **MEDIUM** - IaC validation |
+| **mcp_azure_mcp_datadog** | Datadog integration | ?? **LOW** - Not using Datadog |
+| **mcp_azure_mcp_grafana** | Azure Managed Grafana | ?? **LOW** - Not using Grafana |
+| **mcp_azure_mcp_group_list** | List resource groups | ?? **HIGH** - Navigation |
+| **mcp_azure_mcp_subscription_list** | List subscriptions | ?? **HIGH** - Account management |
 
 ### DevBox Management (8 MCP tools)
 
 | Tool | Function | Your Priority |
 |------|----------|---------------|
-| **activate_devbox_resource_management_tools** | DevBox discovery and info | 🟢 **LOW** - Not using DevBox |
-| **mcp_devbox_devbox_action** | Start/stop/restart/repair DevBox | 🟢 **LOW** - Not using DevBox |
-| **mcp_devbox_devbox_entra_id_check** | Entra ID status check | 🟢 **LOW** - Not using DevBox |
-| **mcp_devbox_devbox_think** | DevBox domain model and workflows | 🟢 **LOW** - Not using DevBox |
-| **mcp_devbox_get_operation_status** | Check long-running DevBox operations | 🟢 **LOW** - Not using DevBox |
-| **mcp_devbox_devbox_resource** | Unified DevBox resource retrieval | 🟢 **LOW** - Not using DevBox |
-| **activate_azure_dev_box_configuration_tools** | DevBox YAML customization | 🟢 **LOW** - Not using DevBox |
-| **devbox_customization_custom_task_generator** | Generate DevBox custom tasks | 🟢 **LOW** - Not using DevBox |
-| **devbox_customization_installed_apps_searcher** | Search DevBox installed apps | 🟢 **LOW** - Not using DevBox |
+| **activate_devbox_resource_management_tools** | DevBox discovery and info | ?? **LOW** - Not using DevBox |
+| **mcp_devbox_devbox_action** | Start/stop/restart/repair DevBox | ?? **LOW** - Not using DevBox |
+| **mcp_devbox_devbox_entra_id_check** | Entra ID status check | ?? **LOW** - Not using DevBox |
+| **mcp_devbox_devbox_think** | DevBox domain model and workflows | ?? **LOW** - Not using DevBox |
+| **mcp_devbox_get_operation_status** | Check long-running DevBox operations | ?? **LOW** - Not using DevBox |
+| **mcp_devbox_devbox_resource** | Unified DevBox resource retrieval | ?? **LOW** - Not using DevBox |
+| **activate_azure_dev_box_configuration_tools** | DevBox YAML customization | ?? **LOW** - Not using DevBox |
+| **devbox_customization_custom_task_generator** | Generate DevBox custom tasks | ?? **LOW** - Not using DevBox |
+| **devbox_customization_installed_apps_searcher** | Search DevBox installed apps | ?? **LOW** - Not using DevBox |
 
 ### Git & GitHub (15+ tools)
 
 | Tool | Function | Your Priority |
 |------|----------|---------------|
-| **activate_git_branch_management_tools** | Branch listing/creating/checkout | 🟠 **HIGH** - Feature branch workflows |
-| **activate_git_issue_and_pull_request_tools** | Issue/PR lifecycle management | 🟠 **HIGH** - Collaboration and reviews |
-| **activate_pull_request_management_tools** | PR/issue management (create/list/comment) | 🟠 **HIGH** - Code review workflow |
-| **activate_github_search_tools** | Enhanced GitHub search | 🟡 **MEDIUM** - Research and discovery |
-| **mcp_gitkraken_git_add_or_commit** | Run git add or commit | 🟠 **HIGH** - Commit automation |
-| **mcp_gitkraken_git_blame** | Git blame for authorship | 🟡 **MEDIUM** - Historical investigation |
-| **mcp_gitkraken_git_push** | Run git push | 🟠 **HIGH** - Publishing changes |
-| **mcp_gitkraken_git_stash** | Create git stash | 🟡 **MEDIUM** - WIP state management |
-| **mcp_gitkraken_gitkraken_workspace_list** | List GitKraken workspaces | 🟢 **LOW** - Not using GitKraken workspaces |
-| **get_changed_files** | Git diffs (staged/unstaged) | 🟠 **HIGH** - Pre-commit review |
-| **github_repo** | Search GitHub repository code | 🟡 **MEDIUM** - Reference implementation lookup |
+| **activate_git_branch_management_tools** | Branch listing/creating/checkout | ?? **HIGH** - Feature branch workflows |
+| **activate_git_issue_and_pull_request_tools** | Issue/PR lifecycle management | ?? **HIGH** - Collaboration and reviews |
+| **activate_pull_request_management_tools** | PR/issue management (create/list/comment) | ?? **HIGH** - Code review workflow |
+| **activate_github_search_tools** | Enhanced GitHub search | ?? **MEDIUM** - Research and discovery |
+| **mcp_gitkraken_git_add_or_commit** | Run git add or commit | ?? **HIGH** - Commit automation |
+| **mcp_gitkraken_git_blame** | Git blame for authorship | ?? **MEDIUM** - Historical investigation |
+| **mcp_gitkraken_git_push** | Run git push | ?? **HIGH** - Publishing changes |
+| **mcp_gitkraken_git_stash** | Create git stash | ?? **MEDIUM** - WIP state management |
+| **mcp_gitkraken_gitkraken_workspace_list** | List GitKraken workspaces | ?? **LOW** - Not using GitKraken workspaces |
+| **get_changed_files** | Git diffs (staged/unstaged) | ?? **HIGH** - Pre-commit review |
+| **github_repo** | Search GitHub repository code | ?? **MEDIUM** - Reference implementation lookup |
 
 ### Multi-Tool Execution (1 tool)
 
 | Tool | Function | Your Priority |
 |------|----------|---------------|
-| **multi_tool_use.parallel** | Run multiple tools concurrently | 🔴 **CRITICAL** - Performance optimization for discovery tasks |
+| **multi_tool_use.parallel** | Run multiple tools concurrently | ?? **CRITICAL** - Performance optimization for discovery tasks |
 
 ---
 
 ## Tools Mapped to Your Projects
 
-### 🔴 **CRITICAL for EVA AI Governance** (eva-ai-governance)
+### ?? **CRITICAL for EVA AI Governance** (eva-ai-governance)
 
 **Why you're here**: Establishing responsible AI practices for public sector
 
@@ -226,7 +247,7 @@ This project succeeds when:
 5. Track evidence (get_changed_files + git commit automation)
 ```
 
-### 🔴 **CRITICAL for Agent Skills Framework** (Project 02)
+### ?? **CRITICAL for Agent Skills Framework** (Project 02)
 
 **Why you're here**: Generalizing AI automation patterns into reusable components
 
@@ -249,12 +270,12 @@ This project succeeds when:
 5. Test orchestration (runSubagent for multi-step flows)
 ```
 
-### 🔴 **CRITICAL for OS-vNext Workflows** (Project 04)
+### ?? **CRITICAL for OS-vNext Workflows** (Project 04)
 
 **Why you're here**: Predefined workflows for documentation and implementation
 
 **Essential Tools**:
-1. **manage_todo_list** - Track Prime→Generate→Validate loop
+1. **manage_todo_list** - Track Prime?Generate?Validate loop
 2. **read_file** + **create_file** - Generate phase documentation
 3. **grep_search** - Validate traceability across phase files
 4. **run_task** - Execute validation scripts (extract-architecture.ps1, run-static-analysis.ps1)
@@ -271,7 +292,7 @@ This project succeeds when:
 5. Collect evidence (get_task_output + git commit)
 ```
 
-### 🟠 **HIGH for Copilot Instructions** (Project 07)
+### ?? **HIGH for Copilot Instructions** (Project 07)
 
 **Why you're here**: Standardizing AI-assisted development across EVA ecosystem
 
@@ -293,7 +314,7 @@ This project succeeds when:
 5. Propagation (get_changed_files + git commit)
 ```
 
-### 🟠 **HIGH for MS-InfoJP Deployment** (Project 11)
+### ?? **HIGH for MS-InfoJP Deployment** (Project 11)
 
 **Why you're here**: Deploying jurisprudence AI assistant to Azure
 
@@ -321,7 +342,7 @@ This project succeeds when:
 
 ## Priority Tiers: What to Master First
 
-### 🔴 **Tier 1: CRITICAL - Master Immediately** (15 tools)
+### ?? **Tier 1: CRITICAL - Master Immediately** (15 tools)
 
 These tools directly accelerate your core workflows:
 
@@ -344,7 +365,7 @@ These tools directly accelerate your core workflows:
 **Time Investment**: 2-3 hours of focused practice  
 **Return**: 10x acceleration on documentation, refactoring, and Azure workflows
 
-### 🟠 **Tier 2: HIGH - Master Within 2 Weeks** (20 tools)
+### ?? **Tier 2: HIGH - Master Within 2 Weeks** (20 tools)
 
 These tools enhance efficiency on specific tasks:
 
@@ -360,7 +381,7 @@ These tools enhance efficiency on specific tasks:
 **Time Investment**: 4-5 hours over 2 weeks  
 **Return**: 3-5x acceleration on Git workflows, Azure management, and agent development
 
-### 🟡 **Tier 3: MEDIUM - Master As Needed** (15 tools)
+### ?? **Tier 3: MEDIUM - Master As Needed** (15 tools)
 
 Useful but not urgent:
 
@@ -376,7 +397,7 @@ Useful but not urgent:
 **Time Investment**: Learn when encountering specific use cases  
 **Return**: 20-30% efficiency gain on edge cases
 
-### 🟢 **Tier 4: LOW - Consider Disabling** (106 tools)
+### ?? **Tier 4: LOW - Consider Disabling** (106 tools)
 
 Tools that don't align with your current workflow:
 
@@ -444,7 +465,7 @@ Tools that don't align with your current workflow:
 
 **Use Case**: Generate AI governance policy documents with traceability
 
-**Tools**: manage_todo_list → grep_search → semantic_search → create_file → get_errors → get_changed_files
+**Tools**: manage_todo_list ? grep_search ? semantic_search ? create_file ? get_errors ? get_changed_files
 
 **Example Workflow**:
 ```
@@ -452,20 +473,20 @@ You: "Generate AI governance policy for model deployment approval process"
 
 Copilot uses:
 1. semantic_search("model deployment approval" OR "ML governance")
-   → Finds existing patterns in EVA codebase
+   ? Finds existing patterns in EVA codebase
 2. grep_search("CONTROL-" in eva-ai-governance/*)
-   → Discovers control IDs to reference
+   ? Discovers control IDs to reference
 3. create_file(eva-ai-governance/20-controls/model-deployment-approval.md)
-   → Generates policy with YAML metadata + traceability
-4. get_errors() → Validates structure
-5. get_changed_files() → Shows diff for review
+   ? Generates policy with YAML metadata + traceability
+4. get_errors() ? Validates structure
+5. get_changed_files() ? Shows diff for review
 ```
 
 ### Pattern 2: Agent Skills Refactoring
 
 **Use Case**: Extract reusable pattern from multiple agent implementations
 
-**Tools**: semantic_search → list_code_usages → apply_patch → get_errors → run_in_terminal
+**Tools**: semantic_search ? list_code_usages ? apply_patch ? get_errors ? run_in_terminal
 
 **Example Workflow**:
 ```
@@ -473,20 +494,20 @@ You: "Extract evidence collection pattern into AgentSkillBase"
 
 Copilot uses:
 1. semantic_search("evidence collection" in projects/02-poc-agent-skills)
-   → Finds 3 implementations of evidence collector
+   ? Finds 3 implementations of evidence collector
 2. list_code_usages(symbolName="collect_evidence")
-   → Shows all 12 call sites across skills
-3. apply_patch() → Extracts abstract method into base class
-4. get_errors() → Validates no broken imports
+   ? Shows all 12 call sites across skills
+3. apply_patch() ? Extracts abstract method into base class
+4. get_errors() ? Validates no broken imports
 5. run_in_terminal("python -m pytest tests/test_agent_skills.py")
-   → Confirms refactoring didn't break tests
+   ? Confirms refactoring didn't break tests
 ```
 
 ### Pattern 3: Azure Resource Troubleshooting
 
 **Use Case**: Debug MS-InfoJP deployment failure
 
-**Tools**: activate_azure_authentication → mcp_azure_mcp_group_list → azureResources_getAzureActivityLog → mcp_azure_mcp_documentation → run_in_terminal
+**Tools**: activate_azure_authentication ? mcp_azure_mcp_group_list ? azureResources_getAzureActivityLog ? mcp_azure_mcp_documentation ? run_in_terminal
 
 **Example Workflow**:
 ```
@@ -495,33 +516,33 @@ You: "Why did MS-InfoJP backend deployment fail?"
 Copilot uses:
 1. activate_azure_authentication()
 2. mcp_azure_mcp_group_list(subscription="MarcoSub")
-   → Finds rg-msinfojp-marco
+   ? Finds rg-msinfojp-marco
 3. azureResources_getAzureActivityLog(resourceGroup="rg-msinfojp-marco", hours=1)
-   → Shows "Cosmos DB provisioning failed: quota exceeded"
+   ? Shows "Cosmos DB provisioning failed: quota exceeded"
 4. mcp_azure_mcp_documentation("cosmos db quota exceeded")
-   → Returns link to quota management docs
+   ? Returns link to quota management docs
 5. run_in_terminal("az cosmosdb list --query '[].{Name:name, Region:location}' -o table")
-   → Shows existing Cosmos instances for cleanup
+   ? Shows existing Cosmos instances for cleanup
 ```
 
 ### Pattern 4: Multi-Repo Copilot Instructions Standardization
 
 **Use Case**: Propagate encoding safety pattern across all EVA repos
 
-**Tools**: file_search → multi_tool_use.parallel(read_file + grep_search + apply_patch) → get_changed_files
+**Tools**: file_search ? multi_tool_use.parallel(read_file + grep_search + apply_patch) ? get_changed_files
 
 **Example Workflow**:
 ```
 You: "Ensure Windows encoding safety is documented in all EVA Copilot instructions"
 
 Copilot uses multi_tool_use.parallel:
-1. file_search("**/.github/copilot-instructions.md") → 5 files found
+1. file_search("**/.github/copilot-instructions.md") ? 5 files found
 2. For each file in parallel:
    a. read_file(lines 1-50)
    b. grep_search("PYTHONIOENCODING" in that file)
    c. If not found:
       apply_patch(add encoding safety section at top)
-3. get_changed_files() → Shows 3 repos needed updates
+3. get_changed_files() ? Shows 3 repos needed updates
 4. Review and commit changes
 ```
 
@@ -529,7 +550,7 @@ Copilot uses multi_tool_use.parallel:
 
 **Use Case**: Validate OS-vNext phase documentation meets standards
 
-**Tools**: manage_todo_list → read_file → grep_search → run_task → get_task_output → get_errors
+**Tools**: manage_todo_list ? read_file ? grep_search ? run_task ? get_task_output ? get_errors
 
 **Example Workflow**:
 ```
@@ -537,15 +558,15 @@ You: "Validate Project 04 Phase 3 documentation against consumability checklist"
 
 Copilot uses:
 1. read_file(docs/eva-foundation/projects/04-OS-vNext/validation/checklist.md)
-   → Loads validation criteria
+   ? Loads validation criteria
 2. manage_todo_list(create from checklist items)
-   → 12 validation checks tracked
+   ? 12 validation checks tracked
 3. grep_search("^traceability:" in Phase-03-*.md)
-   → Verifies all 7 phase files have traceability section
+   ? Verifies all 7 phase files have traceability section
 4. run_task("shell: python scripts/validate-metadata.py Phase-03-*.md")
-   → Executes automated validation
-5. get_task_output() → "5 of 7 files valid, 2 missing audience metadata"
-6. get_errors() → Shows specific line numbers for fixes
+   ? Executes automated validation
+5. get_task_output() ? "5 of 7 files valid, 2 missing audience metadata"
+6. get_errors() ? Shows specific line numbers for fixes
 ```
 
 ---
@@ -601,10 +622,10 @@ Copilot uses:
 
 ### Immediate Actions (Today)
 
-1. ✅ **Document tool inventory** - COMPLETE (this README)
-2. ⏳ **Disable LOW-priority tools** - Reduce from 156 to 130 essential tools
-3. ⏳ **Practice Tier 1 CRITICAL tools** - Hands-on with top 5 tools
-4. ⏳ **Capture baseline metrics** - Time 3 typical tasks before optimization
+1. ? **Document tool inventory** - COMPLETE (this README)
+2. ? **Disable LOW-priority tools** - Reduce from 156 to 130 essential tools
+3. ? **Practice Tier 1 CRITICAL tools** - Hands-on with top 5 tools
+4. ? **Capture baseline metrics** - Time 3 typical tasks before optimization
 
 ### This Week
 
@@ -626,9 +647,9 @@ Copilot uses:
 **"Achieve 3x velocity on documentation/validation workflows through mastery of 30 high-impact tools."**
 
 **Success Metrics**:
-- Governance policy generation: 45 min → 15 min (3x)
-- Agent refactoring: 2 hours → 40 min (3x)
-- Documentation validation: 30 min → 10 min (3x)
+- Governance policy generation: 45 min ? 15 min (3x)
+- Agent refactoring: 2 hours ? 40 min (3x)
+- Documentation validation: 30 min ? 10 min (3x)
 - 30 tools in active daily use
 - 5 reusable workflow patterns documented
 
@@ -638,14 +659,14 @@ Copilot uses:
 
 **Why tools matter more than the beach right now**:
 
-Because you're not just building software—you're:
+Because you're not just building software?you're:
 - **Establishing governance frameworks** that shape responsible AI in public sector
 - **Generalizing AI patterns** that make automation accessible to policy analysts
 - **Creating documentation systems** that enable institutional knowledge capture
 - **Standardizing development practices** that ensure quality and security
 - **Deploying jurisprudence AI** that improves access to Employment Insurance case law
 
-The beach will still be there when this foundation is built. These tools let you build faster, with higher quality, and less cognitive overhead—so you can get to the beach sooner, with systems that actually matter running in production.
+The beach will still be there when this foundation is built. These tools let you build faster, with higher quality, and less cognitive overhead?so you can get to the beach sooner, with systems that actually matter running in production.
 
 **The real question**: Do you want to spend 2 years manually editing files, or 6 months with the right tools and then have time for the beach?
 
@@ -681,7 +702,7 @@ The beach will still be there when this foundation is built. These tools let you
 
 **Project**: 13-vscode-tools  
 **Phase**: Discovery & Analysis  
-**Status**: ✅ COMPLETE - Baseline documented  
+**Status**: ? COMPLETE - Baseline documented  
 **Next Phase**: Tool Adoption & Practice  
 **Owner**: Marco Presta  
 **Created**: 2026-01-25  
